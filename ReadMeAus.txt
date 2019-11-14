@@ -8,6 +8,8 @@ Inside, you'll find something that looks like this:
               {
                 "id": 0,
                 "address": "946 Illinois St # 1, Lawrence, KS 66044",
+                "lat": -170.204,
+                "lng": 80.593,
                 "rent": 2600,
                 "desc": "Each bedroom has a bathroom. Cool space on 2nd floor. Balcony. See video at kawrentals.com Look under 4 bedroom units, 946B Illinois Call/text for tour. One year lease, tenants pay all utilities. Landlord mows grass and removes snow from city side walk only.",
                 "beds": 4,
@@ -44,6 +46,9 @@ Most of the keys and values should be self-explanatory, but I'll explain the one
 
 "id" is not very important, it can be whatever, as long as it's unique. The easiest way to do this is to just number off
 like 1, 2, 3, etc.
+
+"lat" and "lng", latitude and longitude, respectively. just plug the address into Google maps and get the lat and lng to three
+decimal places.
 
 "available" should just be either true or false (not capitalized) depending on whether or not it's presently available.
 
