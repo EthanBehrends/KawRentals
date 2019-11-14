@@ -1,0 +1,34 @@
+[{
+    "id": 0,
+    "address": "946 Illinois St # 1, Lawrence, KS 66044",
+    "rent": 2600,
+    "desc": "Each bedroom has a bathroom. Cool space on 2nd floor. Balcony. See video at kawrentals.com Look under 4 bedroom units, 946B Illinois Call/text for tour. One year lease, tenants pay all utilities. Landlord mows grass and removes snow from city side walk only.",
+    "beds": 4,
+    "baths": 4,
+    "image": "/assets/property1/jimsloughrentals027.jpg",
+    "available": true,
+    "dateAvailable": "08/21"
+  },
+  {
+    "id": 1,
+    "address": "946 Illinois St # 1, Lawrence, KS 66044",
+    "rent": 2600,
+    "desc": "Each bedroom has a bathroom. Cool space on 2nd floor. Balcony. See video at kawrentals.com Look under 4 bedroom units, 946B Illinois Call/text for tour. One year lease, tenants pay all utilities. Landlord mows grass and removes snow from city side walk only.",
+    "beds": 3,
+    "baths": 4,
+    "image": "/assets/property1/jimsloughrentals027.jpg",
+    "available": true,
+    "dateAvailable": "08/21"
+  },
+  {
+    "id": 2,
+    "address": "946 Illinois St # 1, Lawrence, KS 66044",
+    "rent": 2000,
+    "desc": "Each bedroom has a bathroom. Cool space on 2nd floor. Balcony. See video at kawrentals.com Look under 4 bedroom units, 946B Illinois Call/text for tour. One year lease, tenants pay all utilities. Landlord mows grass and removes snow from city side walk only.",
+    "beds": 3,
+    "baths": 3,
+    "image": "/assets/property1/jimsloughrentals027.jpg",
+    "available": false,
+    "dateAvailable": "08/21"
+  }
+]
