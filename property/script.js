@@ -2,6 +2,7 @@ $(document).ready(function() {
   prop = returnProperty();
   prop.then(x => prop = x);
 });
+const apiKey = "AIzaSyDKkm-fXXDQ2lVQXDEHAVWu-oMhnKmtMrk";
 let prop ="No property data";
 async function returnProperty() {
   let data = await getProperty(GetURLParameter("id"));
