@@ -1,6 +1,11 @@
 $(document).ready(function() {
   prop = returnProperty();
-  prop.then(x => prop = x);
+  prop.then(x => {
+    prop = x;
+    initMap();
+    renderImages();
+    fillInfo();
+  });
 });
 const apiKey = "AIzaSyDKkm-fXXDQ2lVQXDEHAVWu-oMhnKmtMrk";
 let prop ="No property data";
@@ -32,4 +37,32 @@ function getProperty(id) {
       resolve("No property found.");
     });
   });
+}
+function initMap() {
+  var map;
+  var marker;
+  var marker2;
+  map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: prop.lat, lng: prop.lng},
+    zoom: 15,
+    mapTypeId: 'hybrid',
+    labels: true
+  });
+  marker = new google.maps.Marker({
+    position: {lat: prop.lat, lng: prop.lng},
+    map: map
+  });
+}
+function renderImages() {
+  $("#imageCont").css('background-image', 'url(../' + prop.image + ')');
+}
+function goBack() {
+  window.history.back();
+}
+function fillInfo() {
+  $("#a").text(prop.address);
+  $("#p").text("$" + prop.rent + "/month");
+  $("#bedbath").text(prop.beds + " Bed | " + prop.baths + " Bath");
+  $("#description").text(prop.desc);
+  $("#available").text("Available " + prop.dateAvailable);
 }
