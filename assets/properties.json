@@ -1,43 +1,211 @@
 [
   {
     "id": 0,
-    "address": "946 Illinois St # 1, Lawrence, KS 66044",
-    "lat": 38.9658326,
-    "lng": -95.2471018,
-    "rent": 2600,
-    "desc": "Each bedroom has a bathroom. Cool space on 2nd floor. Balcony. See video at kawrentals.com Look under 4 bedroom units, 946B Illinois Call/text for tour. One year lease, tenants pay all utilities. Landlord mows grass and removes snow from city side walk only.",
-    "beds": 4,
-    "baths": 4,
+    "address": "1137 Indiana St., Lawrence, KS 66044",
+    "lat": -170.204,
+    "lng": 80.593,
+    "rent": 2000,
+    "desc": "1 bedroom, Large covered deck. SCTC apt #2. 1 bedroom, Big living room. Super close to campus. apt A. 1 bedroom, Big porch. Super close to campus. apt B",
+    "beds": 1,
+    "baths": 1,
     "image": "/assets/property1/jimsloughrentals027.jpg",
     "available": true,
-    "dateAvailable": "08/21"
+    "dateAvailable": "08/20"
   }
   ,
   {
     "id": 1,
-    "address": "946 Illinois St # 1, Lawrence, KS 66044",
+    "address": "627 W 25th St., Lawrence, KS 66044",
     "lat": -170.204,
     "lng": 80.593,
-    "rent": 2600,
-    "desc": "Each bedroom has a bathroom. Cool space on 2nd floor. Balcony. See video at kawrentals.com Look under 4 bedroom units, 946B Illinois Call/text for tour. One year lease, tenants pay all utilities. Landlord mows grass and removes snow from city side walk only.",
-    "beds": 3,
-    "baths": 4,
+    "rent": 2000,
+    "desc": "Located on 25th street between Al. and La. this building has 4 units, each unit is 2 stories with two bedrooms (w/ wood floors) and full bath on second floor. Downstairs has living room, kitchen, 1/2 bath, W/D, private patio, some have dishwashers. Off street parking.",
+    "beds": 2,
+    "baths": 1,
     "image": "/assets/property1/jimsloughrentals027.jpg",
     "available": true,
-    "dateAvailable": "08/21"
+    "dateAvailable": "08/20"
   }
   ,
   {
     "id": 2,
-    "address": "946 Illinois St # 1, Lawrence, KS 66044",
+    "address": "1021 Maine St. #2, Lawrence, KS 66044",
     "lat": -170.204,
     "lng": 80.593,
     "rent": 2000,
-    "desc": "Each bedroom has a bathroom. Cool space on 2nd floor. Balcony. See video at kawrentals.com Look under 4 bedroom units, 946B Illinois Call/text for tour. One year lease, tenants pay all utilities. Landlord mows grass and removes snow from city side walk only.",
+    "desc": "Great Location, right next to the stadium. Hardwood floors, spacious rooms",
+    "beds": 2,
+    "baths": 1,
+    "image": "/assets/property1/jimsloughrentals027.jpg",
+    "available": false,
+    "dateAvailable": "08/21"
+  }
+  ,
+  {
+    "id": 3,
+    "address": "940 Illinois St., Lawrence, KS 66044",
+    "lat": -170.204,
+    "lng": 80.593,
+    "rent": 2000,
+    "desc": "3 bedrooms, each with their own bath. All bedrooms are on the second floor. Downstairs there is a fully equipped kitchen, dinning area, living room with wood floors and 1/2 bath. Includes washer/dryer and great front porch for hanging out.",
+    "beds": 3,
+    "baths": 3.5,
+    "image": "/assets/property1/jimsloughrentals027.jpg",
+    "available": false,
+    "dateAvailable": "08/21"
+  }
+  ,
+  {
+    "id": 4,
+    "address": "942 Illinois St., Lawrence, KS 66044",
+    "lat": -170.204,
+    "lng": 80.593,
+    "rent": 2000,
+    "desc": "3 bedrooms, each with their own bath. All bedrooms are on the second floor. Downstairs there is a fully equipped kitchen, dinning area, living room with wood floors and 1/2 bath. Includes washer/dryer and great front porch for hanging out.",
+    "beds": 3,
+    "baths": 3.5,
+    "image": "/assets/property1/jimsloughrentals027.jpg",
+    "available": false,
+    "dateAvailable": "08/21"
+  }
+  ,
+  {
+    "id": 5,
+    "address": "946 Illinois St. #1, Lawrence, KS 66044",
+    "lat": -170.204,
+    "lng": 80.593,
+    "rent": 2000,
+    "desc": "1st floor unit with one car garage. All 3 bedrooms have their own bathroom. Fully equipped kitchen, dining area, washer/dryer and a small front porch.",
     "beds": 3,
     "baths": 3,
     "image": "/assets/property1/jimsloughrentals027.jpg",
     "available": false,
     "dateAvailable": "08/21"
+  }
+  ,
+  {
+    "id": 6,
+    "address": "1544 Vermont St., Lawrence, KS 66044",
+    "lat": -170.204,
+    "lng": 80.593,
+    "rent": 2000,
+    "desc": "Quiet neighborhood, nice tree shaded lot, mostly home owners.  All bedrooms and bath are on the main level which has hardwood floors throughout.  Bedrooms also have built-ins for extra storage.  This home also has a full basement, perfect for ping pong or other games/TV room etc.",
+    "beds": 3,
+    "baths": 1,
+    "image": "/assets/property1/jimsloughrentals027.jpg",
+    "available": true,
+    "dateAvailable": "08/20"
+  }
+  ,
+  {
+    "id": 7,
+    "address": "1021 Maine St. #1, Lawrence, KS 66044",
+    "lat": -170.204,
+    "lng": 80.593,
+    "rent": 2000,
+    "desc": "This 4 bedroom, 3 full bath home received some major improvements in 2015.  A dormer was added to the second floor for an additional bathroom, the  laundry room was also moved upstairs.  All wiring and plumbing has been replace as well as HVAC (heat and air) system.  Plenty of off street parking.  Located one house from the corner of 11th (Fambrough) and Maine street.  The outside stairs to the 2nd floor were added to meet city egress requirements, it's nice to have a second way to get in and out, move furniture etc to the upstairs.  Great front porch.",
+    "beds": 4,
+    "baths": 3,
+    "image": "/assets/property1/jimsloughrentals027.jpg",
+    "available": false,
+    "dateAvailable": "08/21"
+  }
+  ,
+  {
+    "id": 8,
+    "address": "1308 Ohio St., Lawrence, KS 66044",
+    "lat": -170.204,
+    "lng": 80.593,
+    "rent": 2000,
+    "desc": "Great location, has 4 bedrooms and 2 baths, lots of parking in the back yard (can sell for football games) Washer/dryer included.",
+    "beds": 4,
+    "baths": 2,
+    "image": "/assets/property1/jimsloughrentals027.jpg",
+    "available": false,
+    "dateAvailable": "08/21"
+  }
+  ,
+  {
+    "id": 9,
+    "address": "901 Connecticut St., Lawrence, KS 66044",
+    "lat": -170.204,
+    "lng": 80.593,
+    "rent": 2000,
+    "desc": "Solid downtown location, bus stops across the street. This home had a complete rehab in 2000. All new baths, plumbing, HVHC, & electric. Has large rooms with lots of natural light, some wood floors, great front porch.",
+    "beds": 4,
+    "baths": 3,
+    "image": "/assets/property1/jimsloughrentals027.jpg",
+    "available": true,
+    "dateAvailable": "08/20"
+  }
+  ,
+  {
+    "id": 10,
+    "address": "946 Illinois St. #2, Lawrence, KS 66044",
+    "lat": -170.204,
+    "lng": 80.593,
+    "rent": 2000,
+    "desc": "no garage but is has a fully equipped kitchen, dining area, washer dryer and a porch/balcony.",
+    "beds": 4,
+    "baths": 4,
+    "image": "/assets/property1/jimsloughrentals027.jpg",
+    "available": true,
+    "dateAvailable": "08/20"
+  }
+  ,
+  {
+    "id": 11,
+    "address": "903 Alabama St., Lawrence, KS 66044",
+    "lat": -170.204,
+    "lng": 80.593,
+    "rent": 2000,
+    "desc": "4 bedrooms and 2 baths.",
+    "beds": 4,
+    "baths": 2,
+    "image": "/assets/property1/jimsloughrentals027.jpg",
+    "available": true,
+    "dateAvailable": "08/20"
+  }
+  ,
+  {
+    "id": 12,
+    "address": "1019 Maine St., Lawrence, KS 66044",
+    "lat": -170.204,
+    "lng": 80.593,
+    "rent": 2000,
+    "desc": "4 bedrooms and 2 baths.",
+    "beds": 4,
+    "baths": 2,
+    "image": "/assets/property1/jimsloughrentals027.jpg",
+    "available": false,
+    "dateAvailable": "08/21"
+  }
+  ,
+  {
+    "id": 13,
+    "address": "812 Rhode Island St. #1, Lawrence, KS 66044",
+    "lat": -170.204,
+    "lng": 80.593,
+    "rent": 2000,
+    "desc": "Maple wood floors, W/D, and fully equipped kitchen. with all utilities paid includes premium cable, internet, water, gas, electric and recycling pickup. Lawn care and ample off street parking are provided in this popular downtown location!",
+    "beds": 4,
+    "baths": 3.5,
+    "image": "/assets/property1/jimsloughrentals027.jpg",
+    "available": true,
+    "dateAvailable": "08/20"
+  }  
+  ,
+  {
+    "id": 14,
+    "address": "812 Rhode Island St. #2, Lawrence, KS 66044",
+    "lat": -170.204,
+    "lng": 80.593,
+    "rent": 2000,
+    "desc": "Maple wood floors, W/D, and fully equipped kitchen. with all utilities paid includes premium cable, internet, water, gas, electric and recycling pickup. Lawn care and ample off street parking are provided in this popular downtown location!",
+    "beds": 1,
+    "baths": 1,
+    "image": "/assets/property1/jimsloughrentals027.jpg",
+    "available": true,
+    "dateAvailable": "08/20"
   }
 ]
