@@ -8,7 +8,7 @@ $(document).ready(function() {
   });
 });
 const apiKey = "AIzaSyDKkm-fXXDQ2lVQXDEHAVWu-oMhnKmtMrk";
-let prop ={lat: -34.397, lng: 150.644};
+let prop ="No property data";
 async function returnProperty() {
   let data = await getProperty(GetURLParameter("id"));
   return(data);
@@ -41,15 +41,15 @@ function getProperty(id) {
 function initMap() {
   var map;
   var marker;
-  
+  var marker2;
   map = new google.maps.Map(document.getElementById('map'), {
-    center: coords,
+    center: {lat: prop.lat, lng: prop.lng},
     zoom: 15,
     mapTypeId: 'hybrid',
     labels: true
   });
   marker = new google.maps.Marker({
-    position: coords,
+    position: {lat: prop.lat, lng: prop.lng},
     map: map
   });
 }
