@@ -1,11 +1,6 @@
 $(document).ready(function() {
   prop = returnProperty();
-  prop.then(x => {
-    prop = x;
-    initMap();
-    renderImages();
-    fillInfo();
-  });
+  prop.then(x => prop = x);
 });
 const apiKey = "AIzaSyDKkm-fXXDQ2lVQXDEHAVWu-oMhnKmtMrk";
 let prop ={lat: -34.397, lng: 150.644};
@@ -38,6 +33,7 @@ function getProperty(id) {
     });
   });
 }
+<<<<<<< HEAD
 function initMap() {
   var map;
   var marker;
@@ -66,3 +62,5 @@ function fillInfo() {
   $("#description").text(prop.desc);
   $("#available").text("Available " + prop.dateAvailable);
 }
+=======
+>>>>>>> parent of 1fcb85e... Property Page Draft finished

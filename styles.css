@@ -6,6 +6,15 @@ body {
   background-color: #E0E6DC;
 }
 
+#propContainer {
+  background-color: #F9FFF5;
+  width: 90vw;
+  height: 90vh;
+  margin: 5vh 5vw;
+  border-radius: .5em;
+  box-shadow: 0px 0px 9px #777;
+}
+
 #landing {
   font-family: 'Lato', sans-serif;
   text-align: center;
@@ -20,13 +29,9 @@ body {
   position: absolute;
   top: 25vh;
   width: 100%;
+  font-size: 1.5em;
 }
-#title img {
-  height: 30vh;
-  margin: auto;
-  max-width: 85vw;
-  object-fit: contain;
-}
+
 #navigation {
   width: 100%;
   height: 60px;
@@ -247,7 +252,7 @@ body {
   margin-bottom: 1em;
 }
 
-.desc, #description, #available {
+.desc {
   font-family: 'Merriweather', serif;
 }
 
@@ -279,121 +284,15 @@ body {
   display: none;
 }
 
-#propContainer {
-  background-color: #F9FFF5;
-  width: 90vw;
-  height: 90vh;
-  overflow: scroll;
-  margin: 5vh 5vw;
-  border-radius: .5em;
-  box-shadow: 0px 0px 9px #777;
-  display: flex;
-  flex-wrap: wrap;
-  position: relative;
-}
-#propNav {
-  display: flex;
-}
-#imageMapCol {
-  width: 100%;
-  flex-basis: 400px;
-  flex-grow: 1;
-}
-
-#descCont {
-  width: 100%;
-  min-height: 90vh;
-  flex-basis: 400px;
-  flex-grow: 9999;
-  background-color: #F9FFF5;
-  padding: 2em;
-  box-sizing: border-box;
-  position: relative;
-}
-
-#imageCont {
-  width: 100%;
-  height: 60%;
-  min-height: 350px;
-  background-size: cover;
-}
-
 #mapCont {
   width: 100%;
-  height: 40%;
-  min-height: 250px;
+  height: 100%;
+  max-width: 500px;
   max-height: 350px;
-  background-color: #F9FFF5;
 }
 
 #map {
   height: 100%;
-  width: 100%;
-}
-
-#priceAddress {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  flex-grow: 1;
-  margin-left: 2em;
-}
-.poa {
-  font-family: 'Lato', sans-serif;
-  color: #3E403D;
-  font-weight: 700;
-  font-size: 1.5em;
-  margin-bottom: .5em;
-}
-#description {
-  width: 100%;
-  max-width: 600px;
-  margin: 5em auto;
-}
-#bedbath {
-  font-family: 'Lato', sans-serif;
-  color: #3E403D;
-  font-weight: 700;
-  font-size: 1.2em;
-  margin-top: 1em;
-}
-#apply {
-  padding: 1em;
-  border-radius: .5em;
-  background-color:#3E403D;
-  color: #F9FFF5;
-  width: 120px;
-  text-align: center;
-  font-family: 'Merriweather', sans-serif;
-  font-size: 1.3em;
-  box-shadow: 0px 0px 9px #777;
-  position: absolute;
-  bottom: 2em;
-  right: 2em;
-  transition: .2s;
-  cursor: pointer;
-}
-#available {
-  position: absolute;
-  bottom: 2em;
-  left: 2em;
-}
-#apply:hover {
-  background-color: #7D807A;
-}
-#back {
-  min-width: 40px;
-  height: 40px;
-  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 492 492' style='enable-background:new 0 0 492 492;' xml:space='preserve'%3E%3Cg%3E%3Cg%3E%3Cpath style='fill:%233E403D' d='M464.3,207.4l0.8,0.2H135.9l103.5-103.7c5.1-5.1,7.8-11.9,7.8-19.1c0-7.2-2.8-14-7.8-19.1l-16.1-16.1 c-5.1-5.1-11.8-7.9-19-7.9c-7.2,0-14,2.8-19,7.8L7.8,226.9C2.8,232,0,238.8,0,246c0,7.2,2.8,14,7.8,19.1l177.4,177.4 c5.1,5.1,11.8,7.8,19,7.8c7.2,0,13.9-2.8,19-7.8l16.1-16.1c5.1-5.1,7.8-11.8,7.8-19c0-7.2-2.8-13.6-7.8-18.7L134.7,284.4h330 c14.8,0,27.3-12.8,27.3-27.6V234C492,219.2,479.2,207.4,464.3,207.4z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  transition: .2s;
-  cursor: pointer;
-  flex-basis: 40px;
-}
-#back:hover {
-  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3C!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 492 492' style='enable-background:new 0 0 492 492;' xml:space='preserve'%3E%3Cg%3E%3Cg%3E%3Cpath style='fill:%237D807A' d='M464.3,207.4l0.8,0.2H135.9l103.5-103.7c5.1-5.1,7.8-11.9,7.8-19.1c0-7.2-2.8-14-7.8-19.1l-16.1-16.1 c-5.1-5.1-11.8-7.9-19-7.9c-7.2,0-14,2.8-19,7.8L7.8,226.9C2.8,232,0,238.8,0,246c0,7.2,2.8,14,7.8,19.1l177.4,177.4 c5.1,5.1,11.8,7.8,19,7.8c7.2,0,13.9-2.8,19-7.8l16.1-16.1c5.1-5.1,7.8-11.8,7.8-19c0-7.2-2.8-13.6-7.8-18.7L134.7,284.4h330 c14.8,0,27.3-12.8,27.3-27.6V234C492,219.2,479.2,207.4,464.3,207.4z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
 }
 @keyframes rotate {
   0% {

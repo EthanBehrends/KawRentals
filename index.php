@@ -19,7 +19,8 @@
         </div>
       </div>
       <div id="title">
-        <img src="/assets/logo-01.png" />
+        <h1>Kaw Rentals</h1>
+        <h2>Great quality rentals in the Lawrence area for over 30 years</h2>
       </div>
   </div>
   <div id="searchbar">
