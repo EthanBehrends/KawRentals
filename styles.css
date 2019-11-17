@@ -226,6 +226,9 @@ body {
 .propertydesc {
   flex-grow: 9999;
   flex-basis: 400px;
+  height: 240px;
+  overflow: hidden;
+  box-sizing: border-box;
   padding: 1em;
   font-family: 'Lato', sans-serif;
   background-color: #F9FFF5;
